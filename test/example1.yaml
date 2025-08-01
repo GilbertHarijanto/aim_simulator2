@@ -12,11 +12,11 @@ MemorySystem:
   clock_ratio: 1
 
   DRAM:
-    impl: GDDR6
+    impl: LPDDR6
     org:
-      preset: GDDR6_AiM_org
+      preset: LPDDR6_AiM_org
     timing:
-      preset: GDDR6_AiM_timing 
+      preset: LPDDR6_AiM_timing 
 
   Controller:
     impl: AiM
